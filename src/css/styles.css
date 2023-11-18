@@ -1,0 +1,23 @@
+.menu {
+    padding: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.menu img {
+    margin-right: 10px;
+}
+
+.center img {
+    margin-right: 20px;
+    margin-bottom: 4px;
+}
+
+.picture-center {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
