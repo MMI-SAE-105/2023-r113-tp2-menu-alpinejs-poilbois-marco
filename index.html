@@ -1,83 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{menuIsOpen : false}" :class="{noscroll:menuIsOpen,}">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test menu</title>
-    <script defer src="https://unpkg.com/alpinejs"></script>
-    <style>
-      .menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: #fff;
-        display: grid;
-        place-content: center;
-      }
-      .header__menuBtn {
-        position: relative;
-        z-index: 10;
-      }
-      .noscroll,
-      .noscroll body {
-        overflow: hidden;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <button 
-        aria-controls="mainNav" 
-        @click="menuIsOpen = !menuIsOpen"
-        class="header__menuBtn"
-      >
-        menu
-      </button>
-      <h1>Test de menu</h1>
-      <nav id="mainNav" 
-        x-show="menuIsOpen" 
-        x-transition:duration.800ms
-        class="menu"
-      >
-      </nav>
-
-      <img src="/public/icones/MaterialSymbolsBook4Rounded.svg" alt="Icon Livre">
-      <br>
-      <a href="/fr/chats/index.html">Menu des chats</a>
-      <br>
-      <a href="/fr/chiens/index.html">Menu des chiens</a>
-
-    </header>
-    <dl x-data="{ddIsOpen : false}">
-      <dt>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis autem aliquam ipsum dolores veritatis ad sequi! Ducimus amet id iure alias repudiandae ea, neque assumenda, voluptatem quia ratione mollitia.</dt>
-      <button @click="ddIsOpen = !ddIsOpen">dd1</button>
-      <div x-show="ddIsOpen">
-        <dd>Lorem ipsum dolor sit amet.</dd>
-      </div>
-    </dl>
-    <dl x-data="{ddIsOpen : false}">
-      <dt>Amet ratione ipsam voluptatibus iusto omnis a aliquam unde, natus ab quis ad explicabo dolore nihil deleniti dignissimos autem fuga recusandae enim? Nostrum magnam earum maiores eligendi cumque doloribus exercitationem?</dt>
-      <button @click="ddIsOpen = !ddIsOpen">dd2</button>
-      <div x-show="ddIsOpen">
-        <dd>Repudiandae facere nisi ipsa dolorem.</dd>
-      </div>
-    </dl>
-    <dl x-data="{ddIsOpen : false}">
-      <dt>Numquam officiis odio animi fuga enim veniam in libero. Velit, error. Nisi blanditiis, ducimus distinctio incidunt pariatur temporibus molestias sint, ut facere est iure libero iste earum officia quaerat odio.</dt>
-      <button @click="ddIsOpen = !ddIsOpen">dd3</button>
-      <div x-show="ddIsOpen">
-        <dd>Aliquid officia assumenda optio enim!</dd>
-      </div>
-    </dl>
-    <h2>Lorem, ipsum.</h2>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-      mollitia adipisci alias error laboriosam numquam incidunt magni eum eos
-      nemo aliquid pariatur quam voluptates animi laudantium, aperiam
-      consectetur nobis enim.
-    </p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/fr/index.html">Accueil en français</a>
+    <br>
+    <a href="/en/index.html">Home in english</a>
+</body>
 </html>
