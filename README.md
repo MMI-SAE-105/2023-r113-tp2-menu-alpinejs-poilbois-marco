@@ -1,3 +1,3 @@
 - nom : poilbois
 - prénom : marco
-- URL publique du site : https://tp2-alpine-marco-poilbois-mmi1a2.netlify.app/
+- URL publique du site : http://tp2-menu-alpine.marcopoilbois.fr
